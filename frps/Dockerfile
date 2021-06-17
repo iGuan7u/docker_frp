@@ -1,4 +1,7 @@
+FROM alpine:latest
+
 CMD ["/bin/sh"]
+
 MAINTAINER iguan7u@gmail.com
 
 ENV FRPS_VERSION=0.37.0

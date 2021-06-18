@@ -12,7 +12,7 @@ RUN mkdir /frpc
 
 WORKDIR /frpc
 
-RUN wget https://image-1251248522.cos.ap-guangzhou.myqcloud.com/other/frp_${FRPS_VERSION}_linux_amd64.tar.gz
+RUN wget https://image-1251248522.cos.ap-guangzhou.myqcloud.com/other/frp_${FRPC_VERSION}_linux_amd64.tar.gz
 
 RUN tar -zxvf frp_${FRPC_VERSION}_linux_amd64.tar.gz
 
